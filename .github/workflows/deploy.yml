@@ -24,13 +24,13 @@ jobs:
           node-version: 24
 
       - name: Install dependencies
-          run: |
-           cd MyPortfolio
-           npm install
+        run: |
+            cd MyPortfolio
+            npm install
 
       - name: Build
         run: |
-           cd MyPortfolio
+            cd MyPortfolio
             npm run build
 
       - name: Upload artifact
