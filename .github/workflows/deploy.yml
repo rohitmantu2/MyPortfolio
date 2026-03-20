@@ -25,12 +25,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-            cd MyPortfolio
+            cd MyPortFolio
             npm install
 
       - name: Build
         run: |
-            cd MyPortfolio
+            cd MyPortFolio
             npm run build
 
       - name: Upload artifact
